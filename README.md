@@ -14,4 +14,5 @@ Color and fonts:
 
 ## Result
 
-Finished work:
+Finished work: v-1
+![finished-work-01](./images/completed-project-landing-page-01.png)
