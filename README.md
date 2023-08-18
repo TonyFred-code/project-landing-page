@@ -6,9 +6,11 @@
 ## Task: Create an entire landing page from a design.
 
 ## Design
-Full design
+Full design:
+![full-design](./images/full-image.png)
 
-Color and fonts
+Color and fonts:
+![colors-and-font-styles](./images/colors-and-font-styles.png)
 
 ## Result
 
