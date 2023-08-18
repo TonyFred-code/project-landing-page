@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.header .logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header .links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+}
+.content {
+    flex: 1;
+}
+
+.hero-section {
+    display: flex;
+    background-color: #1F2937;
+}
+.hero-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero-btn {
+    color: #f9faf8;
+    background-color: #3882f6;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+    background-color: #f16f6f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+}
+
+.information-section {
+    display: flex;
+    flex-direction: column;
+}
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.information-cards {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    width: 200px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+.card-box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+}
+.card-text {
+    font-size: 18px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+.quote-cite {
+    margin-left: auto;
+    font-weight: bolder;
+}
+
+.action-section {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+}
+.action-btn {
+    background-color: inherit;
+    color: inherit;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
